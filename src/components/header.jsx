@@ -81,20 +81,6 @@ const Header = (props) => {
                   </div>
                   <div className="item">
                     <img
-                      src={isMobile ? slideM2 : slide2}
-                      alt="Study in UK banner"
-                      style={{ width: "100%" }}
-                    />
-                  </div>
-                  <div className="item">
-                    <img
-                      src={isMobile ? slideM3 : slide3}
-                      alt="Study in UK banner"
-                      style={{ width: "100%" }}
-                    />
-                  </div>
-                  <div className="item">
-                    <img
                       src={isMobile ? slideM4 : slide4}
                       alt="Study in UK banner"
                       style={{ width: "100%" }}
@@ -102,7 +88,21 @@ const Header = (props) => {
                   </div>
                   <div className="item">
                     <img
+                      src={isMobile ? slideM2 : slide2}
+                      alt="Study in UK banner"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div className="item">
+                    <img
                       src={isMobile ? slideM5 : slide5}
+                      alt="Study in UK banner"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div className="item">
+                    <img
+                      src={isMobile ? slideM3 : slide3}
                       alt="Study in UK banner"
                       style={{ width: "100%" }}
                     />
